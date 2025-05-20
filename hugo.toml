@@ -32,7 +32,7 @@ enableEmoji     = true
   images = [""]
 
 
-  enableThemeToggle = true
+  enableThemeToggle = false
 [taxonomies]
     category = "blog"
     tag      = "tags"
