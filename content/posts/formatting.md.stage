@@ -1,0 +1,50 @@
+---
+title: "My First Blog Post"
+date: 2025-05-20T10:00:00Z
+draft: false
+tags: ["introduction", "blog", "markdown"]
+categories: ["General"]
+description: "A formatted, beginner-friendly first post using Hugo and Markdown."
+---
+
+# 👋 Welcome to My Blog
+
+*Hey there!*  
+Welcome to my very first post on this Hugo-powered blog.
+
+---
+
+## ✨ Why I Started This Blog
+
+I've always wanted a place to:
+
+- 🛠 *Document my projects*
+- 📚 *Share what I learn*
+- 🌐 *Connect with others*
+
+---
+
+## 🧭 What You'll Find Here
+
+1. **Tech tutorials**
+2. **Build logs**
+3. **Creative experiments**
+4. _Personal thoughts from time to time_
+
+> 💡 _“Start where you are. Use what you have. Do what you can.”_ — Arthur Ashe
+
+---
+
+## 🔧 Code Snippets
+
+Here's how you print something in Go:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world!")
+}
+
