@@ -11,7 +11,7 @@ description: "And You May Want to, Too"
 
 **Listen up,** *music lovers!* I'm still clutching my iPod like a digital treasure in a world where Spotify, Apple Music, and YouTube reign supreme, But this isn't some hipster nostalgia trip -- it's a conscious choice that's cooler and smarter than you might think.
 
-Not because I hate change. But because it's _better_ -- for me, for the planet, and to **fight digital enshitification.** 
+Not because I hate change. But because it's _better_ -- for me, for the planet, and to [**fight digital enshitification.**](https://www.youtube.com/watch?v=4EmstuO0Em8)
 
 Let's get real about music consumption in 2025. Here's why I still rock my iPod instead of relying on streaming apps, and why you might want to reconsider your daily music habits too.
 

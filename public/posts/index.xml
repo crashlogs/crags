@@ -10,51 +10,6 @@
         <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>My First Blog Post</title>
-            <link>http://localhost:1313/posts/formatting/</link>
-            <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
-            
-            <guid>http://localhost:1313/posts/formatting/</guid>
-            <description>👋 Welcome to My Blog Hey there!
-Welcome to my very first post on this Hugo-powered blog.
-✨ Why I Started This Blog I&amp;rsquo;ve always wanted a place to:
-🛠 Document my projects 📚 Share what I learn 🌐 Connect with others 🧭 What You&amp;rsquo;ll Find Here Tech tutorials Build logs Creative experiments Personal thoughts from time to time 💡 “Start where you are. Use what you have. Do what you can.</description>
-            <content type="html"><![CDATA[<h1 id="-welcome-to-my-blog">👋 Welcome to My Blog</h1>
-<p><em>Hey there!</em><br>
-Welcome to my very first post on this Hugo-powered blog.</p>
-<hr>
-<h2 id="-why-i-started-this-blog">✨ Why I Started This Blog</h2>
-<p>I&rsquo;ve always wanted a place to:</p>
-<ul>
-<li>🛠 <em>Document my projects</em></li>
-<li>📚 <em>Share what I learn</em></li>
-<li>🌐 <em>Connect with others</em></li>
-</ul>
-<hr>
-<h2 id="-what-youll-find-here">🧭 What You&rsquo;ll Find Here</h2>
-<ol>
-<li><strong>Tech tutorials</strong></li>
-<li><strong>Build logs</strong></li>
-<li><strong>Creative experiments</strong></li>
-<li><em>Personal thoughts from time to time</em></li>
-</ol>
-<blockquote>
-<p>💡 <em>“Start where you are. Use what you have. Do what you can.”</em> — Arthur Ashe</p>
-</blockquote>
-<hr>
-<h2 id="-code-snippets">🔧 Code Snippets</h2>
-<p>Here&rsquo;s how you print something in Go:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>]]></content>
-        </item>
-        
-        <item>
             <title>Why I still rock my iPod</title>
             <link>http://localhost:1313/posts/rockmyipod/</link>
             <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
@@ -64,7 +19,7 @@ Welcome to my very first post on this Hugo-powered blog.</p>
 Not because I hate change. But because it&amp;rsquo;s better &amp;ndash; for me, for the planet, and to fight digital enshitification.
 Let&amp;rsquo;s get real about music consumption in 2025.</description>
             <content type="html"><![CDATA[<p><strong>Listen up,</strong> <em>music lovers!</em> I&rsquo;m still clutching my iPod like a digital treasure in a world where Spotify, Apple Music, and YouTube reign supreme, But this isn&rsquo;t some hipster nostalgia trip &ndash; it&rsquo;s a conscious choice that&rsquo;s cooler and smarter than you might think.</p>
-<p>Not because I hate change. But because it&rsquo;s <em>better</em> &ndash; for me, for the planet, and to <strong>fight digital enshitification.</strong></p>
+<p>Not because I hate change. But because it&rsquo;s <em>better</em> &ndash; for me, for the planet, and to <a href="https://www.youtube.com/watch?v=4EmstuO0Em8"><strong>fight digital enshitification.</strong></a></p>
 <p>Let&rsquo;s get real about music consumption in 2025. Here&rsquo;s why I still rock my iPod instead of relying on streaming apps, and why you might want to reconsider your daily music habits too.</p>
 <hr>
 <h3 id="1-streaming--massive-energy-drain">1. <strong>Streaming = Massive Energy Drain</strong></h3>
