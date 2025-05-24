@@ -1,0 +1,1 @@
+async function getVisitorIP(){try{const t=await fetch("https://api.ipify.org?format=json"),e=await t.json();console.log("IP fetched:",e.ip);const n=document.querySelectorAll(".site-name a");n.forEach(t=>{t.textContent=`>Visitor ${e.ip} @crashlogs`})}catch(e){console.error("Error fetching IP:",e)}}document.addEventListener("DOMContentLoaded",getVisitorIP)

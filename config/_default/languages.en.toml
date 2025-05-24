@@ -2,15 +2,15 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "crashlogs :"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
-  secondaryLogo = "img/secondary-logo.png"
+  logo = "img/blowfish_logo.png"
+  secondaryLogo = "img/blowfish_logo.png"
   description = "Crashlogs Blog"
   copyright = "Copy, _right?_ 🤔"
 
@@ -18,7 +18,7 @@ title = "Blowfish"
   name = "SYN"
   email = "syn@crashlogs.com"
   image = "img/blowfish_logo.png"
-  imageQuality = 96
+  #imageQuality = 96
   headline = "Well hello there !"
   bio = "whoami"
 #   links = [
