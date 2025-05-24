@@ -9,15 +9,15 @@ title = "crashlogs :"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/blowfish_logo.png"
-  secondaryLogo = "img/blowfish_logo.png"
+  #logo = "img/kraken.jpg"
+  #secondaryLogo = "img/blowfish_logo.png"
   description = "Crashlogs Blog"
   copyright = "Copy, _right?_ 🤔"
 
 [params.author]
   name = "SYN"
   email = "syn@crashlogs.com"
-  image = "img/blowfish_logo.png"
+  image = "img/fish.png"
   #imageQuality = 96
   headline = "Well hello there !"
   bio = "whoami"
