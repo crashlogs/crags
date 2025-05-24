@@ -17,8 +17,8 @@
       <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
       <author>syn@crashlogs.com (SYN)</author>
       <guid>http://localhost:1313/posts/rockmyipod/</guid>
-      <description></description>
-      
+      <description>Listen up, music lovers!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/rockmyipod/featured.jpg" />
     </item>
     
   </channel>
