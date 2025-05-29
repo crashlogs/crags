@@ -9,7 +9,17 @@
     <managingEditor>syn@crashlogs.com (SYN)</managingEditor>
     <webMaster>syn@crashlogs.com (SYN)</webMaster>
     <copyright>Copy, _right?_ 🤔</copyright>
-    <lastBuildDate>Tue, 20 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testing Log Statuses</title>
+      <link>http://localhost:1313/posts/testlogs/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <author>syn@crashlogs.com (SYN)</author>
+      <guid>http://localhost:1313/posts/testlogs/</guid>
+      <description>Testing Log Statuses # This article is a test for the custom log status shortcodes that display different status colors for logs.</description>
+      
+    </item>
     
     <item>
       <title>Why I still rock my iPod</title>

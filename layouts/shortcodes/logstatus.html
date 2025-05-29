@@ -1,0 +1,65 @@
+<div class="log-status {{ .Get "status" }}">
+  {{ $status := .Get "status" }}
+  <span class="log-label"></span>
+  <span class="log-button-container">
+    {{ if eq $status "in-progress" }}
+      <span class="log-button log-in-progress">Work in Progress</span>
+    {{ else if eq $status "achieved" }}
+      <span class="log-button log-achieved">Achieved</span>
+    {{ else if eq $status "dropped" }}
+      <span class="log-button log-dropped">Dropped</span>
+    {{ else }}
+      <span class="log-button log-default">Unknown</span>
+    {{ end }}
+  </span>
+</div>
+
+<style>
+.log-status {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.log-label {
+  margin-right: 10px;
+}
+
+.log-button-container {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.log-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: not-allowed;
+  text-align: center;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.log-in-progress {
+  background-color: orange;
+}
+
+.log-achieved {
+  background-color: green;
+}
+
+.log-dropped {
+  background-color: red;
+}
+
+.log-default {
+  background-color: gray;
+}
+
+.log-button:hover {
+  opacity: 0.8;
+}
+</style>
