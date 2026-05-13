@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IMO on crashlogs :</title>
+    <link>https://crashlogs.com/tags/imo/</link>
+    <description>Recent content in IMO on crashlogs :</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>syn@crashlogs.com (SYN)</managingEditor>
+    <webMaster>syn@crashlogs.com (SYN)</webMaster>
+    <copyright>Copy, _right?_ 🤔</copyright>
+    <lastBuildDate>Tue, 20 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://crashlogs.com/tags/imo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why I still rock my iPod</title>
+      <link>https://crashlogs.com/posts/rockmyipod/</link>
+      <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
+      <author>syn@crashlogs.com (SYN)</author>
+      <guid>https://crashlogs.com/posts/rockmyipod/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://crashlogs.com/posts/rockmyipod/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

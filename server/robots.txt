@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crashlogs.com/sitemap.xml
