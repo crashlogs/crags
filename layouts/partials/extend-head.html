@@ -1,2 +1,7 @@
 {{ $visitorIP := resources.Get "js/visitor-ip.js" | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $visitorIP.RelPermalink }}" integrity="{{ $visitorIP.Data.Integrity }}"></script>
+{{ with site.Params.cloudflareAnalytics.token }}
+{{ if hugo.IsProduction }}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ . }}"}'></script>
+{{ end }}
+{{ end }}
