@@ -1,0 +1,36 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}
+  {{- $pctx = site.Home -}}
+{{- end -}}
+{{- $pages := $pctx.RegularPages -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if lt $limit 1 -}}
+  {{- $limit = 15 -}}
+{{- end -}}
+{{- $pages = first $limit $pages -}}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[{{ site.Title }}]]></title>
+    <link>{{ $pctx.Permalink }}</link>
+    <description><![CDATA[{{ site.Params.description }}]]></description>
+    <generator>Hugo</generator>
+    {{- with site.Language.Locale }}
+    <language>{{ . }}</language>
+    {{- end }}
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <atom:link href="{{ with $pctx.OutputFormats.Get "RSS" }}{{ .Permalink }}{{ end }}" rel="self" type="application/rss+xml" />
+    {{- range $pages }}
+    <item>
+      <title><![CDATA[{{ .Title }}]]></title>
+      <link>{{ .Permalink }}</link>
+      <guid>{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      {{- with .Params.author }}
+      <author><![CDATA[{{ . }}]]></author>
+      {{- end }}
+      <description><![CDATA[{{ .Summary | plainify }}]]></description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
