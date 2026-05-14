@@ -149,7 +149,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # enableTrackEvent = true
 
 [cloudflareAnalytics]
-  token = "6bbbf0020bf74c83824c9187e6a50c83"
+  token = "bd5874457f514c28a1c355c9a64951bd"
 
 [buymeacoffee]
   # identifier = ""
