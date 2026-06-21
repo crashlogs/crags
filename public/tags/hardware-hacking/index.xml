@@ -1,0 +1,19 @@
+&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;![CDATA[crashlogs :]]></title>
+    <link>http://localhost:1313/tags/hardware-hacking/</link>
+    <description>&lt;![CDATA[Crashlogs Blog]]></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Jun 2026 12:23:14 &#43;0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hardware-hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&lt;![CDATA[INCIDENT REPORT: Five Radios, One Cheap Display, Zero Free Pins (RE-CYD-2432S028)]]></title>
+      <link>http://localhost:1313/posts/recyd/</link>
+      <guid>http://localhost:1313/posts/recyd/</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 &#43;0000</pubDate>
+      <description>&lt;![CDATA[Reworking a $15 Cheap Yellow Display to run the full Bruce Firmware module set: PN532, NRF24+PA/LNA, CC1101, RDM6300, and IR, plus the SD card ghost that nearly sent me down the wrong rabbit hole.]]></description>
+    </item>
+  </channel>
+</rss>
