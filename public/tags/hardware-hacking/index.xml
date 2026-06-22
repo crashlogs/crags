@@ -6,12 +6,19 @@
     <description>&lt;![CDATA[Crashlogs Blog]]></description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 12:23:14 &#43;0100</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 11:45:51 &#43;0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hardware-hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>&lt;![CDATA[INCIDENT REPORT: RE-CYD V2, Trading Cable Spaghetti for a Real PCB (RE-CYD-2432S028)]]></title>
+      <link>http://localhost:1313/posts/recyd/v2/</link>
+      <guid>http://localhost:1313/posts/recyd/v2/</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 &#43;0000</pubDate>
+      <description>&lt;![CDATA[V1 of the RE-CYD proved five radios could share one CYD. V2 replaces the rat&rsquo;s nest of wires that held it together with a real PCB, fixes the power problems for good, and turns up an unexpected compatibility angle with another CYD firmware project.]]></description>
+    </item>
+    <item>
       <title>&lt;![CDATA[INCIDENT REPORT: Five Radios, One Cheap Display, Zero Free Pins (RE-CYD-2432S028)]]></title>
-      <link>http://localhost:1313/posts/recyd/</link>
-      <guid>http://localhost:1313/posts/recyd/</guid>
+      <link>http://localhost:1313/posts/recyd/v1/</link>
+      <guid>http://localhost:1313/posts/recyd/v1/</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 &#43;0000</pubDate>
       <description>&lt;![CDATA[Reworking a $15 Cheap Yellow Display to run the full Bruce Firmware module set: PN532, NRF24+PA/LNA, CC1101, RDM6300, and IR, plus the SD card ghost that nearly sent me down the wrong rabbit hole.]]></description>
     </item>

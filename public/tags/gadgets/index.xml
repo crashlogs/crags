@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gadgets on crashlogs :</title>
+    <title>&lt;![CDATA[crashlogs :]]></title>
     <link>http://localhost:1313/tags/gadgets/</link>
-    <description>Recent content in Gadgets on crashlogs :</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>&lt;![CDATA[Crashlogs Blog]]></description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>syn@crashlogs.com (SYN)</managingEditor>
-    <webMaster>syn@crashlogs.com (SYN)</webMaster>
-    <copyright>Copy, _right?_ 🤔</copyright>
-    <lastBuildDate>Tue, 20 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gadgets/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 22 Jun 2026 11:45:51 &#43;0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gadgets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Re:CYD [BRUCE FIRMWARE]</title>
-      <link>http://localhost:1313/posts/re-cyd/</link>
-      <pubDate>Tue, 20 May 2025 10:00:00 +0000</pubDate>
-      <author>syn@crashlogs.com (SYN)</author>
-      <guid>http://localhost:1313/posts/re-cyd/</guid>
-      <description></description>
-      
+      <title>&lt;![CDATA[NFCat: Cloning My Building&#39;s Access Tags With an Arduino Micro]]></title>
+      <link>http://localhost:1313/posts/nfcat/</link>
+      <guid>http://localhost:1313/posts/nfcat/</guid>
+      <pubDate>Fri, 19 Jun 2026 10:00:00 &#43;0000</pubDate>
+      <description>&lt;![CDATA[]]></description>
     </item>
-    
   </channel>
 </rss>

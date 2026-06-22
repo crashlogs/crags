@@ -4,19 +4,37 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/recyd/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/recyd/v2/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/nfcat/</loc>
+    <lastmod>2026-06-19T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/recyd/v1/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/testlogs/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
