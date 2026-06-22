@@ -1,7 +1,7 @@
 ---
 title: "RE-CYD: Version 2, Trading Cable Spaghetti for a Real PCB (RE-CYD-2432S028)"
 date: 2026-06-22
-draft: true
+draft: false
 tags: ["esp32", "bruce-firmware", "hardware-hacking", "cyd", "re-cyd", "pcb", "power-electronics"]
 series: ["RE-CYD"]
 series_order: 2
