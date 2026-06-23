@@ -45,7 +45,7 @@ Every module on this build, PN532, NRF24, CC1101, RDM6300, TSOP, is itself a sma
 
 The TSOP IR receiver and the IR LED were the exceptions. Both came from scavenged stock with no trustworthy pinout reference to check against, so those two needed verification by trial rather than confirmation against a datasheet. The V2 PCB still needed a header footprint for every module and a layout that let the shared bus and power rails cascade out to all of them without the boards physically colliding, that spacing and footprint work, more than the trace routing itself, is most of what "designing this PCB" actually meant.
 
-{{< figure src="/images/layout.png" alt="RE-CYD V2 PCB layout showing module footprint placement" caption="Placeholder, working out where five non-standard breakout boards could physically sit without colliding" >}}
+{{< figure src="/images/layout.png" alt="RE-CYD V2 PCB layout showing module footprint placement" caption=" working out where five non-standard breakout boards could physically sit without colliding" >}}
 
 {{< alert >}}
 Most parts here had real documentation, that's not a reason to skip double-checking dimensions before committing a footprint. The two parts that didn't (TSOP, IR LED) are exactly where the surprises happened, verify those by continuity testing rather than trusting silkscreen or a stock photo.
@@ -55,13 +55,13 @@ Most parts here had real documentation, that's not a reason to skip double-check
 
 Before committing to a real fabrication run, I etched a homemade PCB to verify footprints and trace continuity. It caught exactly the kind of bug the alert above is warning about: the TSOP IR receiver's pads were wired reversed. With no trustworthy pinout reference for that scavenged part, I had to test pin assignment by trial rather than assume it from a datasheet. The homemade board also doubled as a physical mockup for module spacing, since fitting five non-standard breakout boards onto one layout is as much a geometry problem as an electrical one.
 
-{{< figure src="/images/re-cyd-v2-1-places.jpg" alt="Homemade RE-CYD V2 prototype PCB with modules under test" caption="Placeholder, the homemade prototype board where the reversed TSOP footprint got caught before the real fab run" >}}
+{{< figure src="/images/re-cyd-v2-1-places.jpg" alt="Homemade RE-CYD V2 prototype PCB with modules under test" caption=" the homemade prototype board where the reversed TSOP footprint got caught before the real fab run" >}}
 
 ## Going Pro (Sort Of)
 
 With the homemade board validated and the TSOP fix folded in, the design went to a local PCB shop for proper fabrication. It came back medium quality, but more than good enough for a prototype run, and every fix from the homemade version made it into that board cleanly. I'm not naming the shop here, it served its purpose for this stage but isn't what I'd recommend for a production-quality board. V3 is moving to JLCPCB for that.
 
-{{< figure src="/images/re-cyd-v2-PCB-old-new.jpg" alt="Professionally fabricated RE-CYD V2 PCB populated with all modules" caption="Placeholder, the pro-fab V2 board with every module mounted, sitting in the open V2 case" >}}
+{{< figure src="/images/re-cyd-v2-PCB-old-new.jpg" alt="Professionally fabricated RE-CYD V2 PCB populated with all modules" caption=" the pro-fab V2 board with every module mounted, sitting in the open V2 case" >}}
 
 ## Power: Boring This Time, Which Is the Point
 
@@ -69,7 +69,7 @@ V1 spent real time diagnosing why everything worked on USB-C and fell apart on b
 
 It worked. Current draw is healthy, the instability from V1 is gone, and nothing needed a second pass to get there, the FM5324-based power section did exactly what diagnosing V1's problem said it should do.
 
-{{< figure src="/images/re-cyd-v2-step-up.jpg" alt="Close-up of the V2 power section with decoupling capacitors, AMS1117, and FM5324" caption="Placeholder, the power section: AMS1117 radio rail, FM5324 charge/boost/switch, and decoupling caps tucked in close to each module" >}}
+{{< figure src="/images/re-cyd-v2-step-up.jpg" alt="Close-up of the V2 power section with decoupling capacitors, AMS1117, and FM5324" caption=" the power section: AMS1117 radio rail, FM5324 charge/boost/switch, and decoupling caps tucked in close to each module" >}}
 
 ## The Case: Same Board, Much Smaller Footprint
 
@@ -81,7 +81,7 @@ It worked. Current draw is healthy, the instability from V1 is gone, and nothing
 
 The footprint (length times width) dropped from roughly 13,280mm² to about 7,476mm², a cut of around 44%. Thickness actually grew by about 40%, since the PCB and module stack now sits taller than V1's loose-wired layout did. Even with that trade, total enclosed volume still came down by roughly 21%. Smaller to hold, smaller to pocket, and noticeably more rigid than V1's wobble ever was.
 
-{{< figure src="/images/compare.png" alt="Fully assembled and closed RE-CYD V2 unit" caption="Placeholder, V2 closed up and running" >}}
+{{< figure src="/images/compare.png" alt="Fully assembled and closed RE-CYD V2 unit" caption=" V2 closed up and running" >}}
 
 ## What's Already Queued for V3
 
