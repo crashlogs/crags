@@ -87,9 +87,24 @@ The footprint (length times width) dropped from roughly 13,280mm² to about 7,47
 
 V1 got fully torn down to build V2, every module and most of the wiring got reused. V2 is staying intact this time, I like this revision enough to keep it running rather than cannibalize it, which means V3 starts from fresh components rather than salvage.
 
-Two specific things are already on that list:
+**One item already crossed off the list.** I'd planned to break the CYD's reset and boot buttons out to the PCB for V3, since reflashing meant partially disassembling the case to reach them. Turns out that wasn't a hardware problem at all. The board definition at `/boards/_boards_json/Re-CYD-2432s028.json` had its upload speed set to 460800 instead of 115200:
 
-- **Reset and boot buttons** are still sitting on the original CYD, never broken out to the new PCB. Reflashing means partially disassembling the case to reach them, which gets old fast during active development.
+```json
+"upload": {
+  "flash_size": "4MB",
+  "maximum_ram_size": 327680,
+  "maximum_size": 4194304,
+  "require_upload_port": true,
+  "speed": 115200,
+  "protocol": "esptool"
+},
+```
+
+At 460800, the CYD was dropping the DTR/RTS signals esptool needs to trigger an automatic reset before flashing, so it looked like a hardware access problem when it was actually a misconfigured upload speed. Fixing that one value brought auto-reset back, no extra buttons needed on the PCB after all.
+
+What's still genuinely on the list for V3:
+
+- **Reset and boot buttons** are no longer a problem, see above, that turned out to be a config fix, not a hardware redesign.
 - **Case clearance**: V2 closes with screws, but the shell is a genuinely tight fit getting everything seated. It works, but "tight" isn't a long-term assembly strategy.
 - **RDM6300 antenna placement**: it works in V2's shell, but not in a spot I'm happy with long-term. V3 gets a better location for it.
 - **Battery status without burning a CYD pin**: V2 doesn't show battery level on the firmware UI, the FM5324 already has its own status LEDs for charge state, and V3 will route those out to the shell instead of dedicating another CYD pin to a battery indicator I don't actually need duplicated in software.
@@ -120,7 +135,7 @@ V3 starts from fresh components, with the reset/boot buttons and case clearance 
 - My repo, modified with the RE-CYD board pins definitions firmware in the root
 
 {{< github repo="crashlogs/Bruce-Re-CYD" showThumbnail=true >}}
-- V2 PCB ressources here 
+- V2 PCB ressources here
 
 {{< github repo="crashlogs/RE-CYD" showThumbnail=true >}}
 
